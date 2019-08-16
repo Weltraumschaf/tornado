@@ -18,4 +18,6 @@ LABEL org.label-schema.docker.cmd="docker container run --rm -it -p 8080:8080 we
 
 COPY tornado-*.jar application.jar
 
+EXPOSE 8080
+
 CMD ["application.jar"]
