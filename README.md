@@ -5,7 +5,7 @@ This is my playground for fast evaluating stuff. It is based on latest [Spring B
 To build and run execute this:
 
 ```bash
-mvn clena package && java -jar target/java -jar target/tornado-*.jar
+mvn clean package && java -jar target/tornado-*.jar
 ```
 
 To build the Docker image execute this:
